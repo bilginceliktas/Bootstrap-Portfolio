@@ -15,3 +15,9 @@
 a{
     text-decoration: none;
 }
+.nav-link{
+    color: gray;
+}
+.nav-link:hover{
+    color: lightgray;
+}
