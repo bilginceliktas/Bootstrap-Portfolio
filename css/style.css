@@ -21,3 +21,41 @@ a{
 .nav-link:hover{
     color: lightgray;
 }
+.btn {
+    box-shadow: 0 4px 9px -4px rgba(0,0,0,0.35);
+    
+    box-shadow: #000;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.btn:hover {
+    box-shadow: 0 8px 9px -4px rgb(59 113 202 / 30%), 0 4px 18px 0 rgb(59 113 202 / 20%);
+    background: transparent;
+    color: #003158;
+    border-color: #003158;
+    border:1px solid #003158;
+}
+.btn {
+    display: inline-block;
+    background: #003158;
+    padding: 0px 30px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    border: 1px solid #003158;
+    border-radius: 0px;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border: 1px solid #003158;
+    cursor: pointer;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    border-radius: 5px;
+}
+.card{
+    margin: 3px;
+}
